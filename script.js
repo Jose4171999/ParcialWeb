@@ -20,13 +20,13 @@ const obtenerUbicacion = () => {
 
             const arregloDatos = Object.entries(ObjetoDatos);
 
-            // Mostramos los datos en el HTML
+            
             mostrarDatos(arregloDatos);
         })
         .catch(error => console.error('Error al obtener los datos:', error));
 };
 
-// Función que muestra los datos en pantalla
+
 const mostrarDatos = (arregloDatos) => {
 
     
