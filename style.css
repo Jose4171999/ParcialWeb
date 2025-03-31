@@ -1,0 +1,32 @@
+body {
+    font-family: Arial;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    background-image: url('assets/pexels-pixabay-52502.jpg'); 
+    background-size: cover;
+    background-position: center; 
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+#resultado {
+    padding: 15px;
+    color: white;
+    border: 4px solid blue;
+    text-align: left;
+    width: 20%;
+}
